@@ -40,42 +40,42 @@ let products = [
     { 
         id: 1,
         name: "Ar do Campo",
-        images: "/img/field-air-bg-image.png",
+        images: "img/field-air-bg-image.png",
         price: 450
     },
 
     { 
         id: 2,
         name: "Ar da Floresta", 
-        images: "/img/forest-air-bg-image.png", 
+        images: "img/forest-air-bg-image.png", 
         price: 450
     },
 
     { 
         id: 3, 
         name: "Ar da Neve", 
-        images: "/img/snowy-air-bg-image.png", 
+        images: "img/snowy-air-bg-image.png", 
         price: 450
     },
 
     { 
         id: 4, 
         name: "Ar da Primavera", 
-        images: "/img/spring-air-bg-image.png", 
+        images: "img/spring-air-bg-image.png", 
         price: 450 
     },
 
     { 
         id: 5, 
         name: "Ar Tropical", 
-        images: "/img/tropical-air-bg-image.png", 
+        images: "img/tropical-air-bg-image.png", 
         price: 450 
     },
 
     { 
         id: 6,
         name: "Ar Tradicional",
-        images: "/img/tradicional-air-bg-image.png",
+        images: "img/tradicional-air-bg-image.png",
         price: 450
     },
 ];
