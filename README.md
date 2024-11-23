@@ -83,7 +83,7 @@ Utiliza a biblioteca Swiper.js para criar um slider interativo e responsivo.
 - Suporta navegação por botões e paginação.
 - Responsividade para diferentes tamanhos de tela.
 
-```
+---
 
 ### **Principais Arquivos**
 - **`index.html`**: Estrutura HTML contendo os componentes do site.
