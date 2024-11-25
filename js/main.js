@@ -93,7 +93,7 @@ const initApp = () => {
         newDiv.innerHTML = `
             <img src="${value.images}">
             <div class="title">${value.name}</div>
-            <div class="price">${value.price.toLocaleString()}</div>
+            <div class="price">R$${value.price.toLocaleString()}</div>
             <button onclick="addToCard(${key})">Adicionar ao carrinho</button>
         `;
         list.appendChild(newDiv); //Adiciona novo produto na pagina 
@@ -127,7 +127,7 @@ const reloadCard = () => {
             newDiv.innerHTML = `
                 <div><img src="${value.images}"></div>
                 <div class="cardTitle">${value.name}</div>
-                <div class="cardPrice">${(value.price * value.quantity).toLocaleString()}</div>
+                <div class="cardPrice">R$${(value.price * value.quantity).toLocaleString()}</div>
                 <div> 
                     <button style="background-color: #01a6e8" class="cardButton" onclick="changeQuantity(${key}, ${value.quantity - 1})"> - </button>
                     <div class="count">${value.quantity}</div>

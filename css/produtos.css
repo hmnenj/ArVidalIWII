@@ -351,6 +351,7 @@ body.active .products-card {
         padding-top: 100px;
         background: var(--white-color);
         transition: left 0.2 ease;
+        overflow-y: scroll;
     }
 
     body.show-mobile-menu .navbar .nav-menu {
