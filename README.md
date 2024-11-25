@@ -95,7 +95,3 @@ Utiliza a biblioteca Swiper.js para criar um slider interativo e responsivo.
 ## **Dependências**
 - **Swiper.js**: Para a funcionalidade de slider responsivo.
 
----
-
-### **Autor**
-Desenvolvido por [Heloysa Assis].
